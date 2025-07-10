@@ -65,3 +65,32 @@
     font-size: 65px;
     font-weight: bold;
 }
+
+/* action section */
+.action-section
+{
+    display: flex;
+    margin: 150px 300px;
+}
+.left-side
+{
+    margin-right: 220px;
+}
+.action-title
+{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.action-subtitle
+{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+.action-img
+{
+    border-radius: 48px;
+}
