@@ -132,3 +132,64 @@
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
+
+/* What our users say section */
+.feedback-title
+{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    margin-top: 137px;
+}
+
+.feedback-title-card
+{
+    display: flex;
+    margin: 50px 150px;
+    justify-content: space-around;
+}
+
+.feedback-card
+{
+    background-color: #FFFFFF;
+    gap: 20px;
+    padding: 24px;
+}
+
+.user-title
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.user-subtitle
+{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.reviewer
+{
+    display: flex;
+}
+
+.reviewer-img
+{
+    border-radius: 50px;
+    margin-right: 6px;
+}
+
+.reviewer-name
+{
+    font-size: 20px;
+    font-weight: 400;
+    color: #252432;
+}
+
+.reviewer-date
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #252432;
+}
