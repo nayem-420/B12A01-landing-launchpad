@@ -222,3 +222,45 @@
     margin-bottom: 70px;
     border-radius: 48px;
 }
+
+/* get in touch section */
+.touch-section
+{
+    display: flex;
+    justify-content: center;
+}
+
+.touch-input-section
+{
+    width: 500px;
+    height: 500px;
+}
+
+.touch-title
+{
+    font-size: 97px;
+    font-weight: bold;
+    margin-right: 115px;
+}
+
+form label [type = 'email'], [name = 'message'], [type = 'text']
+{
+    display: block;
+    width: 500px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+input::placeholder, textarea::placeholder
+{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.get-in-touch
+{
+    height: 65px;
+    width: 500px;
+}
